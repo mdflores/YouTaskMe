@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285A9D511D814C010010FDC6 /* YTMFirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9D501D814C010010FDC6 /* YTMFirebaseAuthService.swift */; };
+		285A9D541D814D060010FDC6 /* YTMServiceMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285A9D531D814D060010FDC6 /* YTMServiceMediator.swift */; };
+		289E56AF1D813F9A00B82846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E56AE1D813F9A00B82846 /* AppDelegate.swift */; };
+		289E56B41D813F9A00B82846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289E56B21D813F9A00B82846 /* Main.storyboard */; };
+		289E56B61D813F9A00B82846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289E56B51D813F9A00B82846 /* Assets.xcassets */; };
+		289E56B91D813F9A00B82846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289E56B71D813F9A00B82846 /* LaunchScreen.storyboard */; };
+		289E56CA1D81401600B82846 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 289E56C31D81401600B82846 /* GoogleService-Info.plist */; };
+		289E56CC1D81401600B82846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289E56C61D81401600B82846 /* ViewController.swift */; };
+		28C67C7B1D8146B40041A9A1 /* YTMFirebaseDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C67C7A1D8146B40041A9A1 /* YTMFirebaseDataService.swift */; };
+		59688F5F8233A40437DA6136 /* Pods_YouTaskMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C260623DA6004DA8E231038E /* Pods_YouTaskMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16F6BEB7036E314CB1534260 /* Pods-YouTaskMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTaskMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTaskMe/Pods-YouTaskMe.release.xcconfig"; sourceTree = "<group>"; };
+		285A9D501D814C010010FDC6 /* YTMFirebaseAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTMFirebaseAuthService.swift; sourceTree = "<group>"; };
+		285A9D531D814D060010FDC6 /* YTMServiceMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YTMServiceMediator.swift; path = Mediator/YTMServiceMediator.swift; sourceTree = "<group>"; };
+		289E56AB1D813F9A00B82846 /* YouTaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289E56AE1D813F9A00B82846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		289E56B31D813F9A00B82846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289E56B51D813F9A00B82846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		289E56B81D813F9A00B82846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		289E56C31D81401600B82846 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		289E56C61D81401600B82846 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		289E56CD1D81405300B82846 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C67C7A1D8146B40041A9A1 /* YTMFirebaseDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTMFirebaseDataService.swift; sourceTree = "<group>"; };
+		BF34D4A18DBCF68F37A802F9 /* Pods-YouTaskMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTaskMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouTaskMe/Pods-YouTaskMe.debug.xcconfig"; sourceTree = "<group>"; };
+		C260623DA6004DA8E231038E /* Pods_YouTaskMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTaskMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289E56A81D813F9A00B82846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59688F5F8233A40437DA6136 /* Pods_YouTaskMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285A9D521D814CE40010FDC6 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				285A9D531D814D060010FDC6 /* YTMServiceMediator.swift */,
+			);
+			name = Mediator;
+			sourceTree = "<group>";
+		};
+		289E56A21D813F9A00B82846 = {
+			isa = PBXGroup;
+			children = (
+				289E56AD1D813F9A00B82846 /* YouTaskMe */,
+				289E56AC1D813F9A00B82846 /* Products */,
+				A5030D4016EF3258032EFAED /* Pods */,
+				D3E5DEDC0019F71CF6AD4754 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		289E56AC1D813F9A00B82846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289E56AB1D813F9A00B82846 /* YouTaskMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289E56AD1D813F9A00B82846 /* YouTaskMe */ = {
+			isa = PBXGroup;
+			children = (
+				289E56AE1D813F9A00B82846 /* AppDelegate.swift */,
+				289E56B51D813F9A00B82846 /* Assets.xcassets */,
+				289E56C91D81401600B82846 /* Common */,
+				289E56C51D81401600B82846 /* Controllers */,
+				289E56CD1D81405300B82846 /* Info.plist */,
+				289E56B71D813F9A00B82846 /* LaunchScreen.storyboard */,
+				289E56B21D813F9A00B82846 /* Main.storyboard */,
+				289E56C71D81401600B82846 /* Model */,
+				289E56C81D81401600B82846 /* Storyboards */,
+				289E56C21D81401600B82846 /* SupportingFiles */,
+			);
+			path = YouTaskMe;
+			sourceTree = "<group>";
+		};
+		289E56C21D81401600B82846 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				289E56C31D81401600B82846 /* GoogleService-Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		289E56C51D81401600B82846 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289E56C61D81401600B82846 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		289E56C71D81401600B82846 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		289E56C81D81401600B82846 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		289E56C91D81401600B82846 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				285A9D521D814CE40010FDC6 /* Mediator */,
+				28C67C7A1D8146B40041A9A1 /* YTMFirebaseDataService.swift */,
+				285A9D501D814C010010FDC6 /* YTMFirebaseAuthService.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A5030D4016EF3258032EFAED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF34D4A18DBCF68F37A802F9 /* Pods-YouTaskMe.debug.xcconfig */,
+				16F6BEB7036E314CB1534260 /* Pods-YouTaskMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3E5DEDC0019F71CF6AD4754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C260623DA6004DA8E231038E /* Pods_YouTaskMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289E56AA1D813F9A00B82846 /* YouTaskMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289E56BD1D813F9A00B82846 /* Build configuration list for PBXNativeTarget "YouTaskMe" */;
+			buildPhases = (
+				02093BC25675C773F6083748 /* [CP] Check Pods Manifest.lock */,
+				289E56A71D813F9A00B82846 /* Sources */,
+				289E56A81D813F9A00B82846 /* Frameworks */,
+				289E56A91D813F9A00B82846 /* Resources */,
+				FE407C7ADB2418F142F5C693 /* [CP] Embed Pods Frameworks */,
+				88F7733A76EE7945AE214ECF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTaskMe;
+			productName = YouTaskMe;
+			productReference = 289E56AB1D813F9A00B82846 /* YouTaskMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289E56A31D813F9A00B82846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mark Dominick Flores";
+				TargetAttributes = {
+					289E56AA1D813F9A00B82846 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 289E56A61D813F9A00B82846 /* Build configuration list for PBXProject "YouTaskMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289E56A21D813F9A00B82846;
+			productRefGroup = 289E56AC1D813F9A00B82846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289E56AA1D813F9A00B82846 /* YouTaskMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289E56A91D813F9A00B82846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E56B91D813F9A00B82846 /* LaunchScreen.storyboard in Resources */,
+				289E56CA1D81401600B82846 /* GoogleService-Info.plist in Resources */,
+				289E56B61D813F9A00B82846 /* Assets.xcassets in Resources */,
+				289E56B41D813F9A00B82846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02093BC25675C773F6083748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88F7733A76EE7945AE214ECF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTaskMe/Pods-YouTaskMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE407C7ADB2418F142F5C693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTaskMe/Pods-YouTaskMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289E56A71D813F9A00B82846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E56CC1D81401600B82846 /* ViewController.swift in Sources */,
+				285A9D511D814C010010FDC6 /* YTMFirebaseAuthService.swift in Sources */,
+				285A9D541D814D060010FDC6 /* YTMServiceMediator.swift in Sources */,
+				289E56AF1D813F9A00B82846 /* AppDelegate.swift in Sources */,
+				28C67C7B1D8146B40041A9A1 /* YTMFirebaseDataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		289E56B21D813F9A00B82846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289E56B31D813F9A00B82846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289E56B71D813F9A00B82846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289E56B81D813F9A00B82846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289E56BB1D813F9A00B82846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289E56BC1D813F9A00B82846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289E56BE1D813F9A00B82846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF34D4A18DBCF68F37A802F9 /* Pods-YouTaskMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouTaskMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codenameios.YouTaskMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		289E56BF1D813F9A00B82846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F6BEB7036E314CB1534260 /* Pods-YouTaskMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YouTaskMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codenameios.YouTaskMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289E56A61D813F9A00B82846 /* Build configuration list for PBXProject "YouTaskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289E56BB1D813F9A00B82846 /* Debug */,
+				289E56BC1D813F9A00B82846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289E56BD1D813F9A00B82846 /* Build configuration list for PBXNativeTarget "YouTaskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289E56BE1D813F9A00B82846 /* Debug */,
+				289E56BF1D813F9A00B82846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289E56A31D813F9A00B82846 /* Project object */;
+}
